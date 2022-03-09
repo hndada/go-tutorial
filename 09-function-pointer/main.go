@@ -40,4 +40,4 @@ func main() {
 
 }
 
-// go run tutorial/09-function-pointer/main.go
+// go run 09-function-pointer/main.go

@@ -16,4 +16,4 @@ func main() {
 	fmt.Println(v, ok)
 }
 
-// go run tutorial/07-map/main.go
+// go run 07-map/main.go

@@ -24,4 +24,4 @@ func main() {
 	}
 }
 
-// go run tutorial/08-range/main.go
+// go run 08-range/main.go

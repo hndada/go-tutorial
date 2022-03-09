@@ -29,4 +29,4 @@ func main() {
 	s2.hello()
 }
 
-// go run tutorial/10-struct-method/main.go
+// go run 10-struct-method/main.go

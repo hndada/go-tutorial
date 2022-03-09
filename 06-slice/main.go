@@ -28,4 +28,4 @@ func main() {
 
 }
 
-// go run tutorial/06-slice/main.go
+// go run 06-slice/main.go

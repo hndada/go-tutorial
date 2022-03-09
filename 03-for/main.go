@@ -29,4 +29,4 @@ func main() {
 	}
 }
 
-// go run tutorial/03-for/main.go
+// go run 03-for/main.go

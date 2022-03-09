@@ -21,4 +21,4 @@ func main() {
 	fmt.Println(two)
 }
 
-// go run tutorial/05-array/main.go
+// go run 05-array/main.go

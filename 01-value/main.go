@@ -14,4 +14,4 @@ func main() {
 	fmt.Println(!true)
 }
 
-// go run tutorial/01-value/main.go
+// go run 01-value/main.go

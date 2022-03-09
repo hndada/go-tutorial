@@ -56,4 +56,4 @@ func main() {
 	}
 }
 
-// go run tutorial/04-if/main.go
+// go run 04-if/main.go

@@ -16,4 +16,4 @@ func main() {
 	const s string = "full"
 }
 
-// go run tutorial/02-variable/main.go
+// go run 02-variable/main.go
