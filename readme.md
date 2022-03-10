@@ -1,8 +1,27 @@
 # Go in an hour
 
 **Go는 간결합니다. 한 시간이면 전체 문법의 2/3을 배울 수 있습니다.**
-<p>&nbsp;</p>
+&nbsp;
 
+[01-value](https://replit.com/@hndadada/go-tutorial?lite=true#01-value/main.go)
+
+[02-variable](https://replit.com/@hndadada/go-tutorial?lite=true#02-variable/main.go)
+
+[03-for](https://replit.com/@hndadada/go-tutorial?lite=true#03-for/main.go)
+
+[04-if](https://replit.com/@hndadada/go-tutorial?lite=true#04-if/main.go)
+
+[05-array](https://replit.com/@hndadada/go-tutorial?lite=true#05-array/main.go)
+
+[06-slice](https://replit.com/@hndadada/go-tutorial?lite=true#06-slice/main.go)
+
+[07-map](https://replit.com/@hndadada/go-tutorial?lite=true#07-map/main.go)
+
+[08-range](https://replit.com/@hndadada/go-tutorial?lite=true#08-range/main.go)
+
+[09-function, pointer](https://replit.com/@hndadada/go-tutorial?lite=true#09-function-pointer/main.go)   
+
+[10-struct, method](https://replit.com/@hndadada/go-tutorial?lite=true#10-struct-method/main.go)
 
 
 파일 버튼을 누르면 파일 탐색기가 열립니다.
