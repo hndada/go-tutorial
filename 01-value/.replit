@@ -1,2 +1,2 @@
-language = "go"
+language = "bash"
 run = "go run main.go"
