@@ -20,12 +20,6 @@ func main() {
 
 	t := []string{"a", "b", "c"}
 	fmt.Println(t)
-
-	p := make([]string, 0, 3)
-	fmt.Println(p)
-	p = append(p, "x")
-	fmt.Println(p)
-
 }
 
 // go run 06-slice/main.go
