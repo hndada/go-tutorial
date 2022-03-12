@@ -10,10 +10,10 @@ func minus(a, b int) int {
 	return a - b
 }
 
-func setValue(n int) {
+func setByValue(n int) {
 	n = 5
 }
-func setPointer(n *int) {
+func setByPointer(n *int) {
 	*n = 5
 }
 
@@ -29,13 +29,13 @@ func main() {
 	n := 10
 	fmt.Println("n")
 	fmt.Println("before:", n)
-	setValue(n)
+	setByValue(n)
 	fmt.Println("after:", n)
 
 	m := 10
 	fmt.Println("m")
 	fmt.Println("before:", m)
-	setPointer(&m)
+	setByPointer(&m)
 	fmt.Println("after:", m)
 
 }

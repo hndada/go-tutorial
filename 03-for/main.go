@@ -6,7 +6,7 @@ func main() {
 	i := 0
 	for i < 3 {
 		fmt.Println(i)
-		i = i + 1
+		i = i + 1 // add 1 to i
 	}
 	fmt.Println()
 
@@ -16,13 +16,13 @@ func main() {
 	}
 	fmt.Println()
 
-	for j := 5; j < 8; j++ {
+	for j := 5; j < 8; j++ { // j = j + 1
 		fmt.Println(j)
 	}
 	fmt.Println()
 
 	for n := 0; n < 7; n++ {
-		if n%2 == 0 {
+		if n%2 == 0 { // no remainder
 			continue
 		}
 		fmt.Println(n)

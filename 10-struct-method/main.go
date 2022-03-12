@@ -25,6 +25,7 @@ func main() {
 	// method
 	s2.setID(155)
 	fmt.Println("s2:", s2)
+
 	s1.hello()
 	s2.hello()
 }

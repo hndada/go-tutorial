@@ -4,15 +4,15 @@ import "fmt"
 
 func main() {
 	nums := []int{1, 3, 5}
+	for i, n := range nums {
+		fmt.Println("index:", i, "number:", n)
+	}
+
 	sum := 0
 	for _, n := range nums {
 		sum += n
 	}
 	fmt.Println("sum:", sum)
-
-	for i, n := range nums {
-		fmt.Println("index:", i, "number:", n)
-	}
 
 	fruits := map[string]string{
 		"a": "apple", "b": "banana"}
