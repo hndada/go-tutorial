@@ -24,7 +24,7 @@ func main() {
 	} else if i%2 == 0 {
 		fmt.Println("2 multiple")
 	} else {
-		fmt.Println("none")
+		fmt.Println("a prime")
 	}
 	fmt.Println()
 
