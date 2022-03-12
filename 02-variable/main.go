@@ -7,7 +7,7 @@ func main() {
 	var b = "short"
 	c := "shortest"
 	fmt.Println(a, b, c)
-	fmt.Println()
+
 	var i int
 	fmt.Println(i)
 }
