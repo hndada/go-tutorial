@@ -39,4 +39,4 @@ func main() {
 	fmt.Println("after:", m)
 }
 
-// go run 09-function-pointer/main.go
+// go run 09-function/main.go
