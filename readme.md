@@ -19,9 +19,9 @@
 
 [08-range](https://replit.com/@hndadada/go-tutorial?lite=true#08-range/main.go)
 
-[09-function, pointer](https://replit.com/@hndadada/go-tutorial?lite=true#09-function-pointer/main.go)   
+[09-function](https://replit.com/@hndadada/go-tutorial?lite=true#09-function/main.go)   
 
-[10-struct, method](https://replit.com/@hndadada/go-tutorial?lite=true#10-struct-method/main.go)
+[10-struct](https://replit.com/@hndadada/go-tutorial?lite=true#10-struct/main.go)
 
 
 파일 버튼을 누르면 파일 탐색기가 열립니다.
