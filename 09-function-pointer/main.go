@@ -37,7 +37,6 @@ func main() {
 	fmt.Println("before:", m)
 	setByPointer(&m)
 	fmt.Println("after:", m)
-
 }
 
 // go run 09-function-pointer/main.go
