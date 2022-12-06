@@ -8,6 +8,5 @@ The Smallest Go Tutorial
 ```
 $ go run 01_variable.go
 ```
-
 # Acknowledgment
  [gobyexample.com](https://gobyexample.com/) written by [Mark McGranaghan](https://markmcgranaghan.com/) and [Eli Bendersky](https://eli.thegreenplace.net/)
