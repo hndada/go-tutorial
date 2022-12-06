@@ -12,8 +12,8 @@ func main() {
 	if 1+1 == 2 {
 		fmt.Println("of course 1+1 is 2")
 	}
-
 	fmt.Println()
+
 	fmt.Print("6 is ")
 	if i := 6; i%5 == 0 {
 		fmt.Println("5 multiple")
@@ -55,5 +55,3 @@ func main() {
 		fmt.Println("even")
 	}
 }
-
-// go run 04-if/main.go

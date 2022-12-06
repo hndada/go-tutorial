@@ -22,12 +22,10 @@ func main() {
 	s2.name = "Bob"
 	fmt.Println("s1:", s1, "s2:", s2)
 
-	// method
-	s2.setID(155)
-	fmt.Println("s2:", s2)
-
+	// method: struct's function
 	s1.hello()
 	s2.hello()
-}
 
-// go run 10-struct/main.go
+	s2.setID(155)
+	fmt.Println("s2:", s2)
+}

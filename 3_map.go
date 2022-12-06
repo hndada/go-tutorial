@@ -6,8 +6,9 @@ func main() {
 	m := make(map[string]int)
 	m["a"] = 10
 	m["b"] = 50
+	fmt.Println(`value of key "a": `, m["a"])
+	fmt.Println("length:", len(m))
 	fmt.Println(m)
-	fmt.Println("len:", len(m))
 
 	delete(m, "b")
 	fmt.Println(m)
@@ -15,5 +16,3 @@ func main() {
 	v, ok := m["b"]
 	fmt.Println(v, ok)
 }
-
-// go run 07-map/main.go

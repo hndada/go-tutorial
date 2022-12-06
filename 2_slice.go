@@ -3,6 +3,20 @@ package main
 import "fmt"
 
 func main() {
+	// array: a sequence of variables
+	var a [5]int
+	fmt.Println(a)
+
+	a[4] = 100
+	fmt.Println(a)
+	fmt.Println("len:", len(a))
+
+	a = [5]int{0, 2, 4, 6, 8}
+
+	var two [2][3]int
+	fmt.Println(two)
+
+	// slice: a powerful array
 	s := make([]int, 3)
 	s[2] = 20
 	fmt.Println(s)
@@ -21,5 +35,3 @@ func main() {
 	t := []string{"a", "b", "c"}
 	fmt.Println(t)
 }
-
-// go run 06-slice/main.go
