@@ -3,6 +3,33 @@ package main
 import "fmt"
 
 func main() {
+	// for
+	i := 0
+	for i < 3 {
+		fmt.Println(i)
+		i = i + 1 // add 1 to i
+	}
+	fmt.Println()
+
+	for {
+		fmt.Println("loop")
+		break
+	}
+	fmt.Println()
+
+	for j := 5; j < 8; j++ { // j = j + 1
+		fmt.Println(j)
+	}
+	fmt.Println()
+
+	for n := 0; n < 7; n++ {
+		if n < 3 {
+			continue
+		}
+		fmt.Println(n)
+	}
+
+	// range
 	nums := []int{1, 3, 5}
 	for i, n := range nums {
 		fmt.Println("index:", i, "number:", n)
@@ -15,7 +42,9 @@ func main() {
 	fmt.Println("sum:", sum)
 
 	fruits := map[string]string{
-		"a": "apple", "b": "banana"}
+		"a": "apple",
+		"b": "banana",
+	}
 	for k, v := range fruits {
 		fmt.Printf("%s -> %s\n", k, v)
 	}
@@ -23,5 +52,3 @@ func main() {
 		fmt.Println("key:", k)
 	}
 }
-
-// go run 08-range/main.go
