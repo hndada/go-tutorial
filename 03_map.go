@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	m := make(map[string]int)
+	m := make(map[string]int) // beware: make
 	m["a"] = 10
 	m["b"] = 50
 	fmt.Println(`value of key "a": `, m["a"])
