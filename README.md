@@ -10,3 +10,5 @@ $ go run 01_variable.go
 ```
 # Acknowledgment
  [gobyexample.com](https://gobyexample.com/) written by [Mark McGranaghan](https://markmcgranaghan.com/) and [Eli Bendersky](https://eli.thegreenplace.net/)
+
+[sp301415](https://github.com/sp301415): suggesting adding more concepts with better Index  
